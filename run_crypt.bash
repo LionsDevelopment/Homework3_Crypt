@@ -1,5 +1,6 @@
-echo "Installing needed API librarie"
-pip install pycryptodome
+echo "Installing needed API libraries..."
+python -m pip install pycryptodome
+python -m pip install rsa
 
-echo "Running AES/RSA cryptography prorgam"
-py hw3_crypt.py
+echo "Running Cryptography Homework 3..."
+python hw3_crypt_LL.py
